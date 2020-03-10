@@ -14,6 +14,7 @@
 		8035289A2416D24500863E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803528982416D24500863E0B /* Main.storyboard */; };
 		8035289C2416D24600863E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8035289B2416D24600863E0B /* Assets.xcassets */; };
 		8035289F2416D24600863E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8035289D2416D24600863E0B /* LaunchScreen.storyboard */; };
+		808A41C224180409004A6887 /* FirstRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A41C124180409004A6887 /* FirstRowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8035289B2416D24600863E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8035289E2416D24600863E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803528A02416D24600863E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808A41C124180409004A6887 /* FirstRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				803528942416D24500863E0B /* FirstViewController.swift */,
 				803528962416D24500863E0B /* SecondViewController.swift */,
 				803528982416D24500863E0B /* Main.storyboard */,
+				808A41C124180409004A6887 /* FirstRowTableViewCell.swift */,
 				8035289B2416D24600863E0B /* Assets.xcassets */,
 				8035289D2416D24600863E0B /* LaunchScreen.storyboard */,
 				803528A02416D24600863E0B /* Info.plist */,
@@ -144,6 +147,7 @@
 				803528972416D24500863E0B /* SecondViewController.swift in Sources */,
 				803528952416D24500863E0B /* FirstViewController.swift in Sources */,
 				803528912416D24500863E0B /* AppDelegate.swift in Sources */,
+				808A41C224180409004A6887 /* FirstRowTableViewCell.swift in Sources */,
 				803528932416D24500863E0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
