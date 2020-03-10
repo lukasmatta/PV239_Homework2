@@ -10,11 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var closeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func closeButtonClick(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
 
